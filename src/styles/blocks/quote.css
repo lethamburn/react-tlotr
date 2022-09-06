@@ -1,0 +1,17 @@
+.quote {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  align-items: center;
+  width: 70vw;
+  text-align: justify;
+  background-color: var(--background);
+  padding: 1rem;
+  color: var(--secondary);
+}
+
+.quote q {
+  font-family: "Aniron";
+  align-self: center;
+  color: var(--primary);
+}

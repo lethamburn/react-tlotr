@@ -1,0 +1,94 @@
+.characters {
+  background-color: var(--primary);
+  color: var(--background);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 100vh;
+  gap: 2rem;
+  background-image: url("../../../public/images/mordor.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom center;
+  scroll-snap-align: start;
+}
+
+.characters h2 {
+  font-family: "Aniron";
+  padding: 2rem;
+}
+
+@media (max-width: 800px) {
+  .characters h2 {
+    text-align: center;
+  }
+}
+
+.characters .advert {
+  color: var(--secondary);
+  background-color: var(--primary);
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.characters div {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.characters div figure {
+  min-width: 20vw;
+  min-height: 25vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 1rem;
+  background-color: var(--primary);
+  border-radius: 1rem;
+}
+
+.characters form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.characters form input {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  border-bottom: 0.2rem solid var(--secondary);
+}
+
+.characters button {
+  background-color: transparent;
+  background-image: url("../../../public/images/ring.png");
+  outline: none;
+  border: none;
+  background-size: cover;
+  width: 3rem;
+  height: 3rem;
+  cursor: pointer;
+}
+
+.characters h3 {
+  font-family: "Aniron";
+  font-size: 1rem;
+  color: var(--secondary);
+  transition: all 0.3s ease-in-out;
+}
+
+.characters h3:hover {
+  color: var(--highlight);
+  border-bottom: 0.2rem solid var(--highlight);
+}
+
+.characters h4 {
+  font-size: 1rem;
+}

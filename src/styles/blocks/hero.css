@@ -1,0 +1,11 @@
+.hero {
+  height: 85vh;
+  background-image: url("../../../public/images/ring.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

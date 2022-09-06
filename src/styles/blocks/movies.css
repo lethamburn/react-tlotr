@@ -1,0 +1,47 @@
+.movies {
+  background-color: var(--background);
+  color: var(--primary);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 2rem;
+  background-image: url("../../../public/images/footer.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom;
+  scroll-snap-align: start;
+}
+
+.movies h2 {
+  font-family: "Aniron";
+  padding: 1rem;
+}
+
+.movies .gallery {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.movies .gallery figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0.4rem;
+  width: 25vw;
+  height: 30vh;
+  text-align: center;
+}
+
+.movies .gallery figure h3 {
+  font-family: "Ringbearer";
+  font-weight: 300;
+  color: var(--secondary);
+}
+
+.movies .gallery figure h4 {
+  font-size: 1rem;
+}

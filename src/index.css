@@ -1,0 +1,59 @@
+@import url("./styles/fonts.css");
+@import url("./styles/palette.css");
+@import url("./styles/blocks/header.css");
+@import url("./styles/blocks/hero.css");
+@import url("./styles/blocks/quote.css");
+@import url("./styles/blocks/books.css");
+@import url("./styles/blocks/movies.css");
+@import url("./styles/blocks/characters.css");
+@import url("./styles/blocks/about.css");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Morris", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+  min-height: 100vh;
+  background-color: var(--background);
+  color: var(--primary);
+  scroll-snap-type: y mandatory;
+}
+
+header {
+  height: 15vh;
+}
+
+footer {
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #181E23;
+}
+
+footer p {
+  font-family: "Aniron";
+  font-size: 1rem;
+
+}
+section {
+  height: 100vh;
+}
+
+strong{
+  color: var(--secondary);
+}
